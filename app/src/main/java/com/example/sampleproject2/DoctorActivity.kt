@@ -9,6 +9,7 @@ class DoctorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityDoctorBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        var view=binding.root
+        setContentView(view)
     }
 }
