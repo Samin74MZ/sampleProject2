@@ -12,4 +12,5 @@ class DoctorActivity : AppCompatActivity() {
         var view=binding.root
         setContentView(view)
     }
+
 }
