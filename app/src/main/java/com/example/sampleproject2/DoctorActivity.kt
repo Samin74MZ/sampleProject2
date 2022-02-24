@@ -11,6 +11,17 @@ class DoctorActivity : AppCompatActivity() {
         binding= ActivityDoctorBinding.inflate(layoutInflater)
         var view=binding.root
         setContentView(view)
+        initViews()
+    }
+
+    private fun initViews() {
+        Hospital.setTestData()
+        var myDoctor=Hospital.doctorList[0]
+        binding.textViewNeme.text=myDoctor.name
+        binding.textViewExportise.text=myDoctor.field
+        binding.textViewconnect.text=myDoctor.onlineStatus.toString()
+
+
     }
 
 }
