@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rs/AndroidStudioProjects/sampleProject2/app/src/main/res/layout/activity_check_patient.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rs/AndroidStudioProjects/sampleProject2/app/src/main/res/layout/activity_consult.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/rs/AndroidStudioProjects/sampleProject2/app/src/main/res/layout/activity_doctor.xml" value="0.20697463768115942" />
       </map>
     </option>
